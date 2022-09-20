@@ -1,0 +1,202 @@
+body{
+    font-family: "Montserrat";
+}
+
+/* navbar and title */
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+    height: auto;
+}
+
+li{
+    text-align: right;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    size: 4em;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15% 8%;
+}
+
+
+#img-dog{
+    margin-top: -120px;
+    margin-left: 30px;
+    width: 23%;
+    transform: rotate(22deg);
+    position: absolute;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-family: "Montserrat-light";
+    color: #8f8f8f;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.div-button{
+    margin-bottom: 60px;
+}
+
+/* features section */
+
+#features{
+    padding: 8% 11%;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+
+.icon {
+    color: #ef8172 ;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.icon:hover{
+    color: #ff4c68;
+    padding-top: 10px;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+}
+
+p{
+    font-size: 0.9rem;
+    color: #8f8f8f;
+}
+
+.col-sm-12{
+    padding: 40px 40px 40px 40px;
+}
+
+/* testimonial section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3% ;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* card section */
+
+
+.pricing{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+/* cta section */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.f-para{
+    color: white;
+    font-family: 'Montserrat Black';
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.cta-margin{
+    padding: 100px 150px 70px 150px;
+}
+
+.foot{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.stick{
+    padding: 8px 8px 8px 8px;
+}
+
+.copyright{
+    padding-top: 20px;
+}
+
+/* here i use media query to adjust the dog  
+image below screen 991px so that it can't 
+distort screen view of the user */
+
+@media (max-width:991px) {
+
+    #title{
+        text-align: center;
+    }
+
+    #img-dog{
+        position: static;
+        transform: rotate(0);
+        margin-top: -20px;
+        margin-right: 45px;
+        width: 70%;
+    }
+
+    .cta-margin{
+        padding: 70px 100px 60px 100px;
+    }
+}
